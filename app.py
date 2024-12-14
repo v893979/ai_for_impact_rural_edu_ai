@@ -50,9 +50,9 @@ def generate_lesson():
         response.headers.add('Access-Control-Allow-Methods', '*')
         return ('', 204, response.headers)
 
-    calling_domain = request.headers.get('Origin')
-    if calling_domain != "*": #This should be calling_domain != "https://eduzone.pro"
-        return ('', 401) #No need to return the header here, since the request is unauthorized.
+    # calling_domain = request.headers.get('Origin')
+    # if calling_domain != "*": #This should be calling_domain != "https://eduzone.pro"
+    #     return ('', 401) #No need to return the header here, since the request is unauthorized.
 
     data = request.get_json()    
 
