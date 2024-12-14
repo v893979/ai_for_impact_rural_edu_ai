@@ -40,34 +40,27 @@ CORS(app, resources={r"/*": {"origins": "https://eduzone.pro"}})  # Then initial
 #genai.configure(api_key=os.environ['API_KEY'])
 genai.configure(api_key='AIzaSyAwUcBNlujGUVh0vRGSWPbZD1jnJkAtUJI')
 
-@app.route("/generate_lesson", methods=["POST", "OPTIONS"])  # Add OPTIONS
+@app.route("/generate_lesson", methods=["POST", "OPTIONS"])
 @cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
-def generate_toc():
-    if request.method == 'OPTIONS':  # Respond to preflight requests
-        response = make_response(response)
+def generate_lesson():
+    if request.method == 'OPTIONS':
+        response = make_response()  # Create an empty response for OPTIONS
         response.headers.add("Access-Control-Allow-Origin", "*")
         response.headers.add('Access-Control-Allow-Headers', '*')
         response.headers.add('Access-Control-Allow-Methods', '*')
         return ('', 204, response.headers)
-    
-    # Fetch the calling domain
+
     calling_domain = request.headers.get('Origin')
-    if (calling_domain != "*"):
-        return ('', 401, response.headers)
-    
+    if calling_domain != "*": #This should be calling_domain != "https://eduzone.pro"
+        return ('', 401) #No need to return the header here, since the request is unauthorized.
+
     data = request.get_json()    
-    
-    # conn = connect_to_db()
-    # insert_data(conn, "postgres.book.tableofcontents", data)
-    # conn.close()
-    
+
     inputText = data.get("inputText")
 
-    response = generateLesson(inputText)
-    response = jsonify({"tableOfContents": response})
-    response = make_response(response)
-    response.headers['Content-Type'] = 'application/json; charset=utf-8'
-    return response
+    lessonContent = generateLesson(inputText)  # Call the function to generate the lesson
+    response = jsonify({"tableOfContents": lessonContent})  # Create the JSON response here
+    return response # Flask automatically handles the content-type header for jsonify responses.
 
 # Your Google Cloud Project ID
 project_id = "kaggle-gemini-ai"
