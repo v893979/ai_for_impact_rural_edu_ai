@@ -35,7 +35,7 @@ import datetime
 import time
 
 app = Flask(__name__)  # Create the Flask app first
-CORS(app, resources={r"/*": {"origins": "https://eduzone.pro"}})  # Then initialize CORS
+CORS(app, resources={r"/*": {"origins": "*"}})  # Then initialize CORS
 
 #genai.configure(api_key=os.environ['API_KEY'])
 genai.configure(api_key='AIzaSyAwUcBNlujGUVh0vRGSWPbZD1jnJkAtUJI')
