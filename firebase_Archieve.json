@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "source": ".",  
+    "runtime": "python311", 
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

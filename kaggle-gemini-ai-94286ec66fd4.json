@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kaggle-gemini-ai",
+  "private_key_id": "94286ec66fd415b62f8cd7f230ef96c08b79e45f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKz5lTqhBOBOrb\ncHoBBwomU3zy52cMYri+m5Qwc6GvbyzStO8M9jKg6OFSCD4OrbHPuoBs7+h5RPvl\nabaQJZe9jT+0d6cXzze1Slc1CcCBEIkhxlvVglVd5foI4L8sBtxu/pzY4f3XEWxm\n1u5LdCnilNcRm2JbQuUFWdYQUawFBPDoUR3AZsFewOom/jh6vUB78eU5a882dOVt\nkhCA8H1BiXVHi/lajE0cEPQxF0FlKT9T0g7DtUHDDbckEML4PrxWNbUIrIWYiY4L\niKwwTYhULYeiBn95aBnoPvCf9R7BF2QLhrUDF/qrcr8FJx81Ds01m8My6MC5/MNQ\nzOB+uiI1AgMBAAECggEAX3XyziIUtZxz7WEWVCh7mwmeHPlVlEtdeP5i9KFgv+I8\n/1rB0GCL+RhUgle12hPgx42aCGyuCHKzfErTbyr6rvJuw2O0hyz2pEL/JExYS4e8\nfGTQ8gD8bIuksowS/8ak+CupKR7Ka/JcC1XsaSCe3HNBfhyc4abthKTB8QF4Tg2s\nDwNuhn8zcjN3nTA5Gdz7PU8LPRvDoQ9DJO14kEjrYtTw5XJUE6eIl9IymCDzWIkU\nCUjmPyerqYfE1pI6QD3QcjXuFH0H93tMem/eRJHoXYnsm6n+CRVuRawIQzb307Br\nHl+kozdNNieUGS9go2I6OT6rV7iUcjkH+Ce7Pko9qwKBgQDvlTgoSVzU0+5wV/kJ\nEUzroShX5iLhaW8vjBK88HWKpzRrZqQHmE4VToCjE6kegWJC8jfUICSyfbvSgryw\neX7qULtWnriEmF/y8HUxjxHTUNnamv6FxHY6WqeYfMCmm+UDvrLeJLDDUdP1k6Ca\nbOge6FseYMaPw5jjqVFVw7d0ewKBgQDYtVK/creh9xHIAgBugwLaBkZ5j21J3KZn\ngjqz9k/asRGEVW/q1m7uL0sPJgX6JX8v+xH5NcRUY3Qn+Q0gY0EpQ2Wk4WPMcqOs\nsXyHYJ7qrI8/jUs9i6Mq86kt3GWcYH+lAzKUUSX2b8BBE/wXLA3jFTtT4fbeoo0A\nWJ3Xkds9DwKBgQDe1SAdQFbKUK+15+zlxSSRCBx43MDWfPT/+T04ZEI/CtNTjWzE\n76C4aoJ0qwWiLN7Su2y3rInVReKaoiST0vz7PMlxgEDIetzLHWEzDgmbTNjDXWOb\n0SXRkp3M00Nv8xFnkUfWG7QYhpQpFfzLhL3EeYK+V253KoqaPNI8fcO03wKBgQCw\nXSEy3dHE5qZ59+cSCV1QwrqoQ6nV6tUieEH+I/9pI6H16PJkVI+DGMolUfSbV9ji\n25oND0zwwN/PiEi+iwiE5GzcevIVeVbrPKb0JhYvNrB+MCeDtxjb4+FTiYLIeWBo\nkume+0vB+8CjNfh7g0bqAGWAJu4a0n+eQIB06Cdc0QKBgGuhXoPUFVLDQRpD88C/\ndEeRd+wOQGSxohQQ+XQOBUMq7LhaHbxFhFgVgYqlwmnsvlMzH7D0i9YAwih31+G3\nUcw0dbm/Sn+gLjMQFN3sP5V0SifzpWs8J9m7Qm/arCQmGC0JHulZL79zCkEwvDog\nCzmOGlNm4XbcryihH1NRcxnn\n-----END PRIVATE KEY-----\n",
+  "client_email": "book-builder@kaggle-gemini-ai.iam.gserviceaccount.com",
+  "client_id": "115478357665872966634",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/book-builder%40kaggle-gemini-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
