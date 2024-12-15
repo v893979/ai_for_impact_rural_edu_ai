@@ -91,7 +91,7 @@ def generate(text1, generation_config, safety_settings):
 def generateLesson(inputText):
     temparature = 2
 
-    #context = """Teach me a lesson on quadratic equations. Assume I know absolutely nothing about it."""
+    context = """Please give the output in formatted HTML. Context is as follows:""" + inputText
 
     generation_config = {
         "max_output_tokens": 8192,
@@ -109,7 +109,7 @@ def generateLesson(inputText):
     # Try-catch block with retry logic
     for attempt in range(3):
         try:
-            lessonContent = generate(inputText, generation_config, safety_settings)
+            lessonContent = generate(context, generation_config, safety_settings)
             # If successful, break out of the loop
             break
         except Exception as e:
