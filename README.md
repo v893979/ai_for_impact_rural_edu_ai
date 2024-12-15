@@ -17,7 +17,7 @@ API can be accessed via API endpoint https://eduzone-original-ai-186050075223.us
 
 ## Conversational agent using Agent builder
 File with name exported_playbook_Default Generative Playbook.json is the exported agent builder code
-This agent builder is integrated to [https://](https://kaggle-gemini-ai.ts.r.appspot.com/) 
+This agent builder is integrated to [RuralEducation Website](https://kaggle-gemini-ai.ts.r.appspot.com/) 
 You can access this agent by clicking on the conversational message at bottom right corner of the screen
 This agent is trained on Australian Victorian Grade 7 Mathematics curriculam
 You can ask queries to it such as "Explain chapter 1 to me"
